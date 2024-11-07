@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="master.xml(failed)">
+    <classes>
+      <class name="testCases.TC003_LoginDTT">
+        <methods>
+          <include name="verify_loginDDT" invocation-numbers="1 2 3"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC003_LoginDTT -->
+    </classes>
+  </test> <!-- master.xml(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->
